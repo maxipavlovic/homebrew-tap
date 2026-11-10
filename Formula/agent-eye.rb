@@ -1,25 +1,25 @@
 class AgentEye < Formula
   desc "Find, sort and resume your coding-agent sessions: local index, terminal picker and board"
   homepage "https://maxipavlovic.github.io/agent-eye/"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.0/agent-eye-aarch64-apple-darwin.tar.xz"
-      sha256 "a1b409f96282cb1ec588d5c7003e15a2c3a3f7a01b1f078220168e9713f3234f"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.1/agent-eye-aarch64-apple-darwin.tar.xz"
+      sha256 "e6765cd35ae7ae2860a4020b959bedfccb2d9ed3c6893107304687b1decf151f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.0/agent-eye-x86_64-apple-darwin.tar.xz"
-      sha256 "3432216c592b01983f541b4e94bceee6f57454b96f680e52612635b1c1a2cb87"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.1/agent-eye-x86_64-apple-darwin.tar.xz"
+      sha256 "3e386b370efa744103370ff825068a395beb121e26050c4276ee92d8a4fb02f0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.0/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "aa6d2d209f793aad4ef8a07767cfbd8bc1a1b19043d917b97d41cbeac0044a07"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.1/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cc9d70031bcd2160ecb51296b1ca91446027051be607ecff27b071712349ea5b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.0/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e99e43f2d24d6052806ab3159215ecb840219866b9e79489e89884cc85085bd8"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.1.1/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2e98a89071bcb03a13d4308b739a663a4784328175e5816c958c29282ec92bd9"
     end
   end
   license "MIT"
