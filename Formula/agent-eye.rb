@@ -1,25 +1,25 @@
 class AgentEye < Formula
-  desc "Find, sort and resume your coding-agent sessions: local index, terminal picker and board"
+  desc "Find, sort, resume and finish your coding-agent sessions, even overnight: local index, terminal picker and board"
   homepage "https://maxipavlovic.github.io/agent-eye/"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.2.1/agent-eye-aarch64-apple-darwin.tar.xz"
-      sha256 "db541ad2fb0d409c10032c02f857d9c4009022ac766d15c701e46559da6eed68"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.0/agent-eye-aarch64-apple-darwin.tar.xz"
+      sha256 "31edb453bbc2731c05422247ead4f84d606bd499de1133366acbce0fc06aac39"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.2.1/agent-eye-x86_64-apple-darwin.tar.xz"
-      sha256 "b9c2199482fe28840c1bb3d9a56e50f913ff2a47d1c1b9f511614d153105963f"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.0/agent-eye-x86_64-apple-darwin.tar.xz"
+      sha256 "c41de4a640322e985960ddfb25e94269199029660403b887af91e007bfe6093b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.2.1/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c6a530484d3d323ab40a1646b58cd6f200a1312c8d02d76850c010a432ba88d1"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.0/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8aa1aa0f95f7721e4f4909a46c3dde42eedbfdf3a6c7f0e1d435c64e094467c0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.2.1/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "55bef9032b4ea5d25816023d8e52ad4b8e4fec2bc70f3c4a63d75a1f03446b88"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.0/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "56bd3d33d21a99b0a89d999953653048e3f9bc88720bee6e26a32a241f1233d4"
     end
   end
   license "MIT"
