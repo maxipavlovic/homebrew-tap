@@ -1,25 +1,25 @@
 class AgentEye < Formula
   desc "Find, sort, resume and finish your coding-agent sessions, even overnight: local index, terminal picker and board"
   homepage "https://maxipavlovic.github.io/agent-eye/"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.1/agent-eye-aarch64-apple-darwin.tar.xz"
-      sha256 "07b799695020a85de6ebb0f67bd5407c57da803e69bb5237904178c54b970b21"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.2/agent-eye-aarch64-apple-darwin.tar.xz"
+      sha256 "47fcc4a44f549d57c0f1482bef3403ea252d8398b079ce3f0ac79a88370291c3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.1/agent-eye-x86_64-apple-darwin.tar.xz"
-      sha256 "4a20cb7ebd5c8f47a066ed33e517b4f6d0e351221652a37ef5caf4c17e27a5f5"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.2/agent-eye-x86_64-apple-darwin.tar.xz"
+      sha256 "66b0088b836d76fa445c306ef56b6ac9a818e6f5e79ba7da3320c0e7466e0c29"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.1/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9752bc22e12868f5c901ead028285e16f9e52155c4241c58752210c4d97dfe53"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.2/agent-eye-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a9ec80f671b0ee0da49c36f392c15c799680fe0926d5d8243b04e7eb249c11ae"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.1/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7d2ff154e5297ff97ac4a77c1a74b615e2f9867962c96d44ca0d93dfc2ed1e52"
+      url "https://github.com/maxipavlovic/agent-eye/releases/download/v0.3.2/agent-eye-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b5d63d554a5050ef9aa3296851aad8dfc69d4be617380ef9cc522dc4a6b13d53"
     end
   end
   license "MIT"
